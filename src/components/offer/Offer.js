@@ -40,6 +40,7 @@ function Offer() {
           </div>
         </div>
       </div>
+      {/* check changes */}
     </section>
   )
 }
