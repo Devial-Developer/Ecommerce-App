@@ -1,0 +1,48 @@
+.collection-card-img {
+    border-radius: 50%;
+}
+
+.collection-card .collection-title {
+    font-weight: 600;
+    color: #1C1C1C;
+}
+
+.collection-card {
+    margin: 15px 10px;
+    transition: 0.5s ease-in-out;
+}
+.collection-card:hover .collection-card-img{
+  transform: scale(1.02);
+}
+
+@media screen and (min-width:1200px) {
+    .collection-card-img {
+        width: 170px;
+        height: 170px;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .collection-card-img {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 22px;
+    }
+
+    .collection-card .collection-title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .collection-card-img {
+        width: 115px;
+        height: 115px;
+        margin-bottom: 12px;
+    }
+
+    .collection-card .collection-title {
+        font-size: 13px;
+    }
+}

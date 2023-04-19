@@ -1,0 +1,47 @@
+.top-header {
+    background-color: #1F1F1F;
+    height: 48px;
+}
+
+.top-header p,
+.top-header .calling {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.top-header .calling {
+    text-decoration: none;
+}
+
+.top-header a.calling:hover {
+    color: #FFC7D1;
+}
+
+
+
+@media screen and (min-width:575px) {
+
+    .top-header p,
+    .top-header .calling {
+        font-size: 14px;
+    }
+
+    .top-header-left i {
+        margin-right: 11px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .top-header p,
+    .top-header .calling {
+        font-size: 9px;
+    }
+
+    .top-header-left i {
+        margin-right: 7px;
+        font-size: 10px;
+    }
+}

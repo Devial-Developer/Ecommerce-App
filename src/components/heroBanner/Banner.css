@@ -1,0 +1,11 @@
+@media screen and (min-width: 575px) {
+    .header-top-padding {
+        padding-top: 136px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-top-padding {
+        padding-top: 100px;
+    }
+}

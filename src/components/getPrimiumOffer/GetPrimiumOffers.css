@@ -1,0 +1,75 @@
+.getPrimiumOffer-card {
+    background-color: #CCCEA7;
+    max-width: 548px;
+    padding: 54px;
+}
+
+.getPrimiumOffer-card span.getPrimiumOffer-title, .getPrimiumOffer-card .getPrimiumOffer-heading {
+    font-weight: 600;
+    color: #1C1C1C;
+}
+
+a.shopnow-btn {
+    min-width: 170px;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    padding: 15px 0;
+    transition: all 0.5s;
+}
+
+a.shopnow-btn:hover {
+    background-color: #1C1C1C;
+    border: 1px solid #1C1C1C;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width:1200px) {
+    .getPrimiumOffer-card .getPrimiumOffer-heading {
+        font-size: 84px;
+        line-height: 112px;
+        margin: 22px 0;
+    }
+    .getPrimiumOffer-card span.getPrimiumOffer-title {
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 22px;
+    }
+    .getPrimiumOffer-card img {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+    .getPrimiumOffer-card .getPrimiumOffer-heading {
+        font-size: 44px;
+        line-height: 58px;
+        margin: 15px 0;
+    }
+    .getPrimiumOffer-card span.getPrimiumOffer-title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 15px;
+    }
+    .getPrimiumOffer-card img {
+        margin-bottom: 38px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .getPrimiumOffer-card .getPrimiumOffer-heading {
+        font-size: 36px;
+        line-height: 48px;
+        margin: 15px 0;
+    }
+    .getPrimiumOffer-card img {
+        margin-bottom: 24px;
+        width: 125px;
+        margin-bottom: 28px;
+    }
+    .getPrimiumOffer-card span.getPrimiumOffer-title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+}

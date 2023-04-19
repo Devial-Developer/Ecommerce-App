@@ -1,0 +1,23 @@
+
+
+@media screen and (min-width:768px) {
+    .offerPoster_card {
+        width: 50%;
+        padding: 10px;
+    }
+    .offerPoster_smallPoster{
+        width:33.33%;
+        padding: 10px;
+    }     
+}
+
+@media screen and (max-width:767px) {
+    .offerPoster_card {
+        width: 100%;
+        padding:5px;
+    }
+    .offerPoster_smallPoster{
+        width:50%;
+        padding: 5px;
+    }     
+}

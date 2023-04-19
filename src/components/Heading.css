@@ -1,0 +1,71 @@
+.heading {
+    text-align: center;
+    overflow: hidden;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    color: #1C1C1C;
+}
+
+h3 small {
+    position: relative;
+}
+
+h3 small:before {
+    content: '';
+    width: 10000px;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 1px;
+    background-color: #FFC7D1;
+}
+
+h3 small:after {
+    content: '';
+    width: 10000px;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 1px;
+    background-color: #FFC7D1
+}
+
+
+@media screen and (min-width:768px) {
+    h3 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    h3 small {
+        padding: 0 30px;
+    }
+    .heading {
+        margin-bottom: 48px;
+    }
+}
+@media screen and (max-width:767px) {
+    .heading {
+        margin-bottom: 25px;
+    }
+}
+@media screen and (min-width:575px) and (max-width:767px){
+    h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    h3 small {
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width:576px){
+    h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    h3 small {
+        padding: 0 5px;
+    }
+}

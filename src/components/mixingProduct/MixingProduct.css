@@ -1,0 +1,73 @@
+.mixingProduct-block {
+    overflow: hidden;
+    max-width: 360px;
+}
+.mixing-color1 {
+    background-color: #06B8A6;
+}
+
+.mixing-color2 {
+    background-color: #80E8FF;
+}
+
+.mixing-color3 {
+    background-color: #DC493A;
+}
+
+.mixing-color4 {
+    background-color: #D7B2FF;
+}
+
+.mixing-color5 {
+    background-color: #F0BC8C;
+}
+
+.mixing-color6 {
+    background-color: #4392F1;
+}
+
+.product-text {
+    background: linear-gradient(111.49deg, rgba(255, 255, 255, 0.4) -8.95%, rgba(255, 255, 255, 0.01) 114%);
+    backdrop-filter: blur(32px);
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.mixingProduct-block img{
+    transition: 0.5s ease-in-out;
+}
+.mixingProduct-block img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:1200px){
+    .mixingProduct-block {
+        min-height: 432px;
+    }
+    .product-text {
+        padding: 20px 0;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1199px){
+    .product-text {
+        padding: 15px 0;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:768px){
+    .mixingProduct_card {
+        width: 33.33%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:767px){
+    .mixingProduct_card {
+        width: 50%;
+        padding: 5px;
+    }
+}
+
